@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+@media only screen and (max-width: 600px) {
+    .conatiner{
+        width: 100%;
+
+    }
+    .logo{
+        display: none;
+    }
+}
+:root{
+    --primary-color: rgb(2, 190, 155);
+    --secondary-color: rgba(59, 59, 59, 0.902);
+    --third-color:rgb(7, 230, 215);
+    --fourth-color:  rgb(200, 200, 200)
+}
+html {
+    scroll-behavior: smooth;
+}
+  
+.text-primary{
+    color: var(--primary-color);
+}
+.text-secondary{
+    color: var(--secondary-color);
+}
+.ne{
+    display: flex;
+    float: right;
+    padding-right: 10%;
+}
+.ne a{
+    color: var(--third-color);
+    border-radius: 5px;
+    
+}
+#bar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    background-color: var(--primary-color);
+    font-size: 2rem;
+}
+#bar a{
+    text-decoration: none;
+    text-wrap: left;
+    color: var(--secondary-color);
+}
+#bar ul {
+    display: flex;
+    list-style: none; 
+    align-items: center ;
+    padding-left: 30%;
+    
+    
+}
+#bar ul li {
+    padding:  0.75rem;
+    margin: 0.25rem;
+    
+   
+}
+#bar ul li :hover{
+    background-color: var(--third-color);
+   
+}   
+#showcase{
+    background: var(--secondary-color);
+    height: 100vh; 
+    color: var(--primary-color); 
+    
+} 
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items:center;
+    height: 100%;
+    padding: 2rem;
+    background-color: rgba(0,0, 0, 43%);
+}
+.prostred{
+    padding-top: 50px;
+}
+.l-heading{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    line-height: 1.1rem ;
+}
+.lead{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+.btn{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: var(--primary-color);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 7px;
+    
+}
+.btn:hover{
+    background-color: rgb(16, 227, 167);
+    
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2rem;
+    font-size: 1.3rem;
+}
+.text-center{
+    text-align: center;
+}
+.a-heading{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+    text-wrap:wrap;
+}
+.py-1{
+    padding: 1.5rem 0;
+}
+.py-2{
+     padding: 2rem;       
+}
+.py-3{
+    padding-top: 1rem;
+}
+.bg-light{
+    background: white;
+    color: black;
+}
+.bg-dark{
+    background: black;
+    color: white;
+}
+
